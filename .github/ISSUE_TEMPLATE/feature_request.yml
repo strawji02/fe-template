@@ -1,0 +1,24 @@
+name: 기능 추가
+description: 새로운 기능 추가 요청
+labels: [feature]
+title: '[기능] '
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 새로운 기능
+      description: 문제가 무엇인지 또는 구현하고자 하는 기능이 무엇인지에 대한 명확하고 간결한 설명입니다.
+      placeholder: 이런걸 할때 아쉬워요..., 좋은 추가 기능 아이디어는...
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 대체 솔루션 또는 기능
+      description: (optional) 도입하고자 하는 기술에 대해 명확하고 간결하게 설명합니다.
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: 레퍼런스
+      description: (optional) 기능 요청을 이해하는 데 도움이 되는 레퍼런스, 스크린샷 또는 파일을
+        업로드해주세요.

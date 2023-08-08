@@ -1,0 +1,18 @@
+name: 디자인 반영
+description: 업데이트된 디자인 반영 요청
+labels: [design]
+title: '[디자인] '
+body:
+  - type: input
+    id: link
+    attributes:
+      label: 변경된 디자인 링크
+      description: 변경된 디자인의 피그마 링크를 제공해주세요
+      placeholder: figma link
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 추가 설명
+      description: (optional) 추가 설명이 필요하면 명시해주세요
